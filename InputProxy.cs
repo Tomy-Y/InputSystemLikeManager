@@ -83,7 +83,7 @@ namespace InputSystemLikeManager
         // Wrapper Methods
         public void OnJump(InputValue value) => OnInput("Jump", value);
         public void OnChange(InputValue value) => OnInput("Change", value);
-        // ’Ç‰Á‚·‚éê‡‚Íã‹L‚É•í‚Á‚Ä’Ç‰Á
+        // Add more wrapper methods here
 
 
         public InputData GetInput(string name) => buttonInputs.TryGetValue(name, out var data) ? data : null;
